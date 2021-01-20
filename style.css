@@ -1,0 +1,164 @@
+/* Стили для задания №1. */
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: 100px;
+} 
+
+
+th {
+	border: 1px solid grey;
+}
+
+
+td {
+	border: 1px solid grey;
+}
+
+
+.gl {
+	font-weight: bold;
+}
+
+
+.teg {
+	width: 50px;
+}
+
+
+.nomer {
+	width: 100px;
+}
+
+
+.znach {
+	width: 300px;
+}
+
+/* Стили для задания №2.*/
+
+#zd2 {
+	position: relative;
+}
+
+
+#kvad1 {
+	background: red;
+	top: 0;
+	left: 0;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	z-index: 1;
+}
+
+
+#kvad2 {
+	background: blue;
+	top: 60px;
+	left: 60px;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+#kvad3 {
+	background: green;
+	top: 120px;
+	left: 120px;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	z-index: 1;
+}
+
+/* Для третьего задания залил решение через style1.css. */
+/* Стили для задания №4. */
+
+p {
+	font-size: 40px;
+	margin: 60px auto;
+}
+
+#pr1 {
+	text-shadow: 20px 30px gray;
+}
+
+#pr2 {
+	text-shadow: 20px 30px 5px gray;
+}
+
+#pr3 {
+	text-shadow: 10px 10px 5px red, -10px -10px 5px blue;
+}
+
+#pr4 {
+	color: bisque;
+	text-shadow: -1px -1px silver, 1px -1px silver;
+}
+
+#pr5 {
+	color: bisque;
+	text-shadow: 1px 1px 1px silver, -1px 1px 1px silver;
+}
+
+#pr6 {
+	color: bisque;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Стили для задания №5. */
+
+.poslzadan {
+	border: red 2px solid;
+	border-radius: 10px;
+	width: 500px;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: width 2s cubic-bezier(0, 0, 1, 1) 0s;
+}
+
+.poslzadan:hover ~ div {
+	width: 1000px;
+}
+#zadanki {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-direction: row;
+}
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+ul li {
+	list-style: none;
+	background-color: ghostwhite;
+	height: 70%;
+	padding: 0 30px;
+	text-align: center;
+	text-space: 5px;
+	margin: 0;
+	box-shadow: 5px 5px 5px aqua, -5px -5px 5px aqua, 5px -5px 5px aqua, -5px 5px 5px aqua;
+}
+ul {
+	align-items: center;
+	height: 50px;
+	background-color: dimgray;
+	border-radius: 5px;
+	padding: 0;
+}
+.button {
+	width: min-content;
+	background-color: ghostwhite;
+	height: 70%;
+	padding: 0 30px;
+	text-align: center;
+	margin: 0 auto 20px;
+	box-shadow: 5px 5px 5px aqua, -5px -5px 5px aqua, 5px -5px 5px aqua, -5px 5px 5px aqua;
+}

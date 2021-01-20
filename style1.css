@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 100px;
+}
+td {
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+.sss {
+    color: red;
+    font-size: 70px;
+    opacity: 0;
+}
+.sss:hover {
+    visibility: visible;
+    opacity: 1;
+}
+.button {
+
+    width: min-content;
+    background-color: ghostwhite;
+    height: 70%;
+    padding: 0 30px;
+    text-align: center;
+    margin: 0 auto 20px;
+    box-shadow: 5px 5px 5px aqua, -5px -5px 5px aqua, 5px -5px 5px aqua, -5px 5px 5px aqua;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+}
